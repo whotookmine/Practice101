@@ -20,6 +20,8 @@ db.once("open", () => {
   console.log("Database Connected!");
 });
 
+///CHOKE
+
 const app = express();
 
 app.engine("ejs", ejsMate);
